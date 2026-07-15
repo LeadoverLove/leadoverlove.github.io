@@ -93,22 +93,22 @@
     <!-- Danger blocks on the board -->
     <figure class="shot">
       <div class="shot__frame">
-        <img src="shots/danger.webp" width="600" height="1303"
+        <img src="shots/danger.webp" width="600" height="1303" loading="lazy"
              alt="Two danger blocks on the jungle board, each showing the block colour needed to destroy it">
       </div>
       <figcaption>Danger blocks show the colour you need to match.</figcaption>
     </figure>
 
-    <!-- ============================================================
-         PLACEHOLDER 4 — VIDEO: destroying a danger block
-         Replace with:
-           <video src="clips/danger.mp4" autoplay muted loop playsinline></video>
-         ============================================================ -->
+    <!-- Loop: destroying a danger block -->
     <figure class="shot">
       <div class="shot__frame">
-        <div class="placeholder">VIDEO LOOP<br>clips/danger.mp4<br>3-5s: destroying one</div>
+        <video src="clips/danger.mp4"
+               width="600" height="1304"
+               autoplay muted loop playsinline
+               preload="metadata"
+               aria-label="A danger block being destroyed by a matching colour"></video>
       </div>
-      <figcaption>TODO — caption.</figcaption>
+      <figcaption>TODO &mdash; caption.</figcaption>
     </figure>
   </div>
 
