@@ -132,19 +132,8 @@
 
   <p>Cosmos arrives at level 16, and it's where you stay. There's no seventh world and no ending — the levels keep counting up, the emitters keep charging faster, and eventually the grid will fill. Everyone loses. The only question is when.</p>
 
-  <!-- ============================================================
-       PLACEHOLDER 5 — THE SIX THEMES
-       One screenshot per theme. Duplicate the <figure> block below
-       six times, one for each:
-         shots/theme-jungle.webp    Levels 1-3
-         shots/theme-ocean.webp     Levels 4-6
-         shots/theme-lava.webp      Levels 7-9
-         shots/theme-space.webp     Levels 10-12
-         shots/theme-cyber.webp     Levels 13-15
-         shots/theme-cosmos.webp    Levels 16-18
-       The .shot-row wrapper puts them two-up on desktop,
-       stacked on mobile.
-       ============================================================ -->
+  <!-- Five worlds shown; Cosmos (16-18) is deliberately withheld
+       so players discover it by reaching it. -->
   <div class="shot-row">
     <figure class="shot">
       <div class="shot__frame">
@@ -182,13 +171,19 @@
   <div class="shot-row">
     <figure class="shot">
       <div class="shot__frame">
-        <div class="placeholder">SCREENSHOT<br>theme-cyber.webp</div>
+        <img src="shots/theme-cyber.webp" width="600" height="1304" loading="lazy"
+             alt="A Cyber board at level 13">
       </div>
       <figcaption>Cyber &mdash; levels 13&ndash;15</figcaption>
     </figure>
     <figure class="shot">
       <div class="shot__frame">
-        <div class="placeholder">SCREENSHOT<br>theme-cosmos.webp</div>
+        <div class="locked" role="img"
+             aria-label="Cosmos is not shown. Reach level 16 to see it.">
+          <span class="locked__icon">&#9679;</span>
+          <span class="locked__line">REACH LEVEL 16</span>
+          <span class="locked__sub">to see this one</span>
+        </div>
       </div>
       <figcaption>Cosmos &mdash; levels 16&ndash;18</figcaption>
     </figure>

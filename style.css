@@ -220,6 +220,42 @@ a:focus-visible {
 }
 .shot-row .shot { margin: 0; }
 
+/* ---- Locked panel: Cosmos is deliberately not shown. Matches the
+       phone-shot aspect ratio so the grid row stays even. ---- */
+.locked {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 600 / 1304;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(177, 45, 33, 0.10), transparent 62%),
+    var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  padding: 20px;
+}
+.locked__icon {
+  font-size: 22px;
+  color: var(--red);
+  line-height: 1;
+}
+.locked__line {
+  font-family: var(--display);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--amber);
+  line-height: 1.8;
+}
+.locked__sub {
+  font-size: 13px;
+  color: var(--muted);
+}
+
 /* ---- Placeholder: delete these rules once real media is in ---- */
 .placeholder {
   background: repeating-linear-gradient(
