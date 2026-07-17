@@ -124,6 +124,17 @@ h3 {
   margin: 32px 0 6px;
 }
 
+/* Standalone h3s (Power-ups subsections) need to read as headings
+   against the pixel-font h2s, not as bold body text. Inside .step
+   the number already signals hierarchy, so those stay plain. */
+main > h3 {
+  font-family: var(--display);
+  font-size: 11px;
+  color: var(--amber);
+  letter-spacing: 0.04em;
+  margin: 40px 0 14px;
+}
+
 p { margin: 0 0 16px; }
 
 strong { color: #FFF; font-weight: 650; }

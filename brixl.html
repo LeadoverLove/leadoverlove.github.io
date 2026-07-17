@@ -196,16 +196,40 @@
 
   <h2>Power-ups</h2>
 
-  <p>TODO — cover the nuke, bombs, and any other special blocks. What they do, how you earn them, when to use them.</p>
+  <p>Three things break the normal rules. None of them arrive on demand &mdash; you take them when they show up.</p>
 
-  <!-- ============================================================
-       PLACEHOLDER 7 — VIDEO: the nuke
-       ============================================================ -->
+  <h3>Bombs</h3>
+
+  <p>A bomb has no colour of its own. It joins whatever group it's touching, so a bomb sitting between two reds counts as the third red &mdash; and when that group clears, the bomb takes a 3&times;3 chunk of the board with it.</p>
+
+  <p>The real value is what it does to danger blocks. A bomb deals one point of damage to every danger block in its blast, no colour required. It's the only way to hurt a danger block without matching its colour, so a bomb dropped into a cluster can take a hit off three or four of them at once.</p>
+
+  <p>Bombs start appearing at level 2, in about one container refill in twenty.</p>
+
+  <h3>Rainbow blocks</h3>
+
+  <p>A rainbow block is every colour at once. Place it against any group and it counts as one of them &mdash; two reds and a rainbow is a match, two blues and the same rainbow is also a match. Chain two rainbows together and they'll carry a match through the gap between them.</p>
+
+  <p>They're rare, and they don't turn up until level 4. Roughly one refill in thirty.</p>
+
+  <h3>The nuke</h3>
+
+  <p>The nuke charges as you clear. Every block you clear feeds the meter along the bottom of the screen, and at 120 blocks the button lights up. Tap it and the board goes into targeting mode &mdash; you choose the cell, not the game.</p>
+
+  <p>It clears a 5&times;5 area, which is a quarter of the grid in one press. But here's the part people get wrong: <strong>the nuke spares danger blocks.</strong> It won't scratch them. What it gives you is space &mdash; it wipes the clutter out of a jammed board and hands you room to work, which when the emitters are firing and your grid is climbing towards the top row is often worth more than damage.</p>
+
+  <p>Then the meter empties and you start again.</p>
+
+  <!-- Loop: the nuke firing -->
   <figure class="shot">
     <div class="shot__frame">
-      <div class="placeholder">VIDEO LOOP<br>clips/nuke.mp4<br>3-5s: nuke firing</div>
+      <video src="clips/nuke.mp4"
+             width="600" height="1304"
+             autoplay muted loop playsinline
+             preload="metadata"
+             aria-label="The nuke detonating and clearing a 5 by 5 area of the grid"></video>
     </div>
-    <figcaption>TODO — caption.</figcaption>
+    <figcaption>The nuke clears a 5&times;5 area of normal blocks &mdash; danger blocks survive it.</figcaption>
   </figure>
 
 
