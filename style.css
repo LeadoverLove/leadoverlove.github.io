@@ -1,5 +1,5 @@
-/* LeadoverLove Studios — shared styles
-   Palette sampled directly from the studio cobra mark. */
+/* ScarJack Games — shared styles
+   Palette sampled directly from the studio mark. */
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
@@ -35,7 +35,7 @@ body {
 }
 
 /* ---- Pixel block rule: the signature device.
-       Squares in Brixl's six block colours. ---- */
+       Squares in BLOXl's six block colours. ---- */
 .blocks {
   display: flex;
   gap: 4px;
