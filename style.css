@@ -59,20 +59,22 @@ body {
 .site-head__inner {
   max-width: var(--measure);
   margin: 0 auto;
-  padding: 28px 24px;
+  padding: 32px 24px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
 }
+
 .mark {
-  width: 44px;
-  height: 44px;
+  width: 60px;
+  height: 60px;
   image-rendering: pixelated;
   flex: none;
 }
+
 .wordmark {
   font-family: var(--display);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--text);
   text-decoration: none;
