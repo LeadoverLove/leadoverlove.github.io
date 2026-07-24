@@ -339,9 +339,22 @@ a:focus-visible {
 
 @media (max-width: 560px) {
   body { font-size: 16px; }
-  .site-head__inner { padding: 22px 20px; }
+
+  .site-head__inner {
+    padding: 22px 20px;
+    gap: 14px;
+  }
+
+  .mark {
+    width: 50px;
+    height: 50px;
+  }
+
+  .wordmark {
+    font-size: 12px;
+  }
+
   main { padding: 40px 20px 72px; }
-  .wordmark { font-size: 11px; }
   h2 { font-size: 12px; }
   .site-foot .spacer { margin-left: 0; }
 }
